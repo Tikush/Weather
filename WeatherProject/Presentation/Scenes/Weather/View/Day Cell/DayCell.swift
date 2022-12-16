@@ -21,7 +21,7 @@ class DayCell: UITableViewCell {
     
     func configure(with item: Forecastday) {
         dateLabel.text = "\(item.date.suffix(2)) Dec"
-        minTempLabel.text = "\(item.day.minTemp)"
-        maxTempLabel.text = "\(item.day.maxTemp)"
+        minTempLabel.text = "\(item.day.minTemp)º"
+        maxTempLabel.text = "\(item.day.maxTemp)º"
     }
 }
