@@ -8,7 +8,7 @@
 import Foundation
 
 enum EndPoint: String {
-    case url = "https://api.weatherapi.com/v1/forecast.json?key=f56580404c7f486abcc204951220612&q=Tbilisi&days=10&aqi=yes&alerts=no"
+    case url = "https://api.weatherapi.com/v1/forecast.json?key=9060d2e418564a38a97154453222312&q=Tbilisi&days=10&aqi=yes&alerts=no"
 }
 
 typealias completionBlock<T: Codable> = ((Result<T, Error>) -> Void)
